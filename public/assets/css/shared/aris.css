@@ -1,0 +1,21 @@
+.form_label{
+    display: inline-block;
+    border:2px solid grey;
+    border-radius: 6px;
+ 
+    min-width:70px;
+    width:auto;
+    padding:8px 12px;
+    text-align: center;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.form_radio{
+    display: none;
+}
+
+.form_radio:checked + .form_label{
+    background: #1C45EF;
+    color:#fff;
+}
